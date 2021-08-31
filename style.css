@@ -1,10 +1,4 @@
-:root {
-    --border-width: 1px;
-    --border-style: solid;
-    --font-size-small: 12px;
-    --font-weight-semibold: 500;
-    --size-2: 20px
-}
+
 
 html {
     -ms-text-size-adjust: 100%;
