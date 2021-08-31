@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <link rel="assets" href="https://github.githubassets.com/">
+    <link crossorigin="anonymous" media="all" integrity="" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-38ae8865695870d0887fa22e1396c6a8.css" />
+    <link crossorigin="anonymous" media="all" integrity="" rel="stylesheet" href="https://github.githubassets.com/assets/behaviors-ac7de3c137c994b6768f52f88e7bfab2.css" />
+    <link crossorigin="anonymous" media="all" integrity="" rel="stylesheet" href="https://github.githubassets.com/assets/github-6ab118f3e31360a3d80b022f03d287f1.css" />
+    <link crossorigin="anonymous" media="all" integrity="" rel="stylesheet" href="https://github.githubassets.com/assets/site-d4cfb541d26787c5dfb155b972684f24.css" />
+    <link crossorigin="anonymous" media="all" integrity="" rel="stylesheet" href="https://github.githubassets.com/assets/home-a75b144c2e2d01c12dd6b4f1565e1fea.css" />
+    
+    <script crossorigin="anonymous" defer="defer" integrity="" type="application/javascript" src="https://github.githubassets.com/assets/webgl-globe-8bbbb3d9.js"></script>
+
+    <meta name="viewport" content="width=device-width">
+
+    <meta name="features-datafile" content="{&quot;features&quot;:[{&quot;name&quot;:&quot;home_page_globe&quot;,&quot;enabled&quot;:true,&quot;percentageOfActors&quot;:0,&quot;actors&quot;:[]}]}" />
+    <!-- To prevent page flashing, the datafile features JS needs to be loaded in the
+    <head> tag before the DOM renders -->
+    <script crossorigin="anonymous" defer="defer" integrity="" type="application/javascript" src="https://github.githubassets.com/assets/features-bd6230aa.js"></script>
+
+    <link href="https://github.githubassets.com/webgl-globe/data/data.json" as="fetch" type="application/json">
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #00000000;
+            color: #24292e00;
+        }
+        .home-hero-container {
+            background-color: #040d21;
+        }
+        .container-xl {
+            max-width: fit-content;
+        }
+        @media (min-width: 1012px) {
+            .home-globe-container-video,.home-globe-container-webgl {
+            height:900px;
+            left: 0;
+            margin-left: auto;
+            width: 900px
+            }
+        }
+    </style>
+    <div>
+        <div class="home-hero-container js-webgl-globe-data">
+            <div class="container-xl">
+                <div class="home-globe-container-webgl" data-feature="home_page_globe" data-show-when-feature-enabled="true">
+                    <div class="height-full js-webgl-globe">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
