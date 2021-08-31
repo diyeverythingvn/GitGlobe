@@ -17,7 +17,6 @@ body {
 }
 
 body {
-    /*Background Color*/
     background-color: #00000000;
     color: #24292e00;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI Variable,Segoe UI,system-ui,ui-sans-serif,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
@@ -25,8 +24,6 @@ body {
     line-height: 1.5
 }
 
-/*home.css*/
-/*Background Globe Color */
 .home-hero-container {
     background-color: #040d21;
     max-height: 926px;
@@ -77,8 +74,6 @@ body {
     width: 200%
 }
 
-
-/*site.css*/
 .events-none {
     pointer-events: none
 }
@@ -102,7 +97,6 @@ body {
     z-index: -2!important
 }
 
-/*frameworks*/
 * {
     box-sizing: border-box
 }
